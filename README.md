@@ -18,6 +18,6 @@ An Azure Resource Group with the following services, data and models:
 - Azure Machine Learning
 - Azure Storage Account (you can use the one from Azure Machine Learning) and add a container _sampledata_ into your storage account. Upload the sample data from this repo named "sample_data_dayinlifeofdatascientist.json"
 - Azure OpenAI Service
-- - text-embedding-ada-002 model
+  - text-embedding-ada-002 model
   - gpt-35-turbo model
 
