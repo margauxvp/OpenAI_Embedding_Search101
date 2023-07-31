@@ -10,14 +10,16 @@ This Python script demonstrates how to use Azure OpenAI models to create embeddi
 - **Vector Search**: Utilize vector similarity to find the top N similar chunks based on user queries. The script calculates cosine similarity between the query's embedding and the embeddings of the articles' bodies to identify the most relevant content.
 - **ChatGPT**: Take the top N similar texts as context and prompt the GPT-35-Turbo model to answer passage-based QnA questions. The GPT-35-Turbo model provides an answer based on the given context and the user query.
 
-## Your turn
-Please make sure to provide the required API keys, resource endpoints, and storage account connection string in the script to ensure proper execution. The script is designed to be easily extendable for various use cases involving knowledge bases and text retrieval.
-
-### Prerequisites
+## Prerequisites
 An Azure Resource Group with the following services, data and models:
 - Azure Machine Learning
 - Azure Storage Account (you can use the one from Azure Machine Learning) and add a container _sampledata_ into your storage account. Upload the sample data from this repo named "sample_data_dayinlifeofdatascientist.json"
 - Azure OpenAI Service
   - text-embedding-ada-002 model
   - gpt-35-turbo model
+ 
+## Your turn
+Please make sure to provide the required API keys, resource endpoints, and storage account connection string in the script to ensure proper execution. The script is designed to be easily extendable for various use cases involving knowledge bases and text retrieval.
+
+
 
